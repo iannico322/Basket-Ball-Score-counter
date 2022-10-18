@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Basket Ball scorer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="con">
+        <h3 id="home">HOME</h3>
+        <div class="score">
+          <h4 id="h-score">0</h4>
+        </div>
+        <div class="points">
+          <h1 onclick="Hp1()">+1</h1>
+          <h1 onclick="Hp2()">+2</h1>
+          <h1 onclick="Hp3()">+3</h1>
+        </div>
+      </div>
+      <div class="con">
+        <h3 id="guest">GUEST</h3>
+        <div class="score">
+          <h4 id="g-score">0</h4>
+        </div>
+        <div class="points">
+          <h1 onclick="Gp1()">+1</h1>
+          <h1 onclick="Gp2()">+2</h1>
+          <h1 onclick="Gp3()">+3</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container2">
+      <div onclick="new_game()">New Game</div>
+    </div>
+    <script src="assets/counter.js"></script>
+  </body>
+</html>

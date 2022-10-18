@@ -1,0 +1,127 @@
+:root {
+    --bg-color: #1b244a;
+    --score-bg: #080001;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+
+    justify-content: center;
+
+    width: 40em;
+    height: 28em;
+    background-color: var(--bg-color);
+    gap: 1em 4em;
+
+    margin: auto;
+    margin-top: 10em;
+}
+
+.con {
+    margin-top: 4em;
+}
+
+.container h3 {
+    text-align: center;
+
+
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+
+
+    color: #EEEEEE;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 155px;
+    height: 110px;
+    background: #080001;
+
+}
+
+h4 {
+    margin: auto;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+h1 {
+    padding: 9px 12px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9AABD8;
+    cursor: pointer;
+}
+
+h1:hover {
+    filter: saturate(8);
+}
+
+h1:active {
+    filter: saturate(20);
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.337);
+    transform: translateY(1px);
+}
+
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.container2 div {
+    padding: 1em;
+    font-family: 'Cursed Timer ULiL';
+    color: #a3a3a3;
+    cursor: pointer;
+    font-size: 18px;
+
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s 0s ease;
+-moz-transition: all 0.5s 0s ease;
+-o-transition: all 0.5s 0s ease;
+transition: all 0.5s 0s ease;
+}
+.container2 div:hover{
+    color: #ededed;
+}
+.container2 div:active{
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.337);
+    transform: translateY(1px);
+
+}
